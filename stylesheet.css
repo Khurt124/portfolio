@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 320px;
+  width: 60px;
+  height: 55px;
+  color: white;
+
+  /* border: 1px solid red; */
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 40px;
+  flex: 1;
+  height: 55px;
+
+  /* border: 1px solid green; */
+}
+
+.line {
+  height: 30px;
+  width: 3px;
+  background-color: white;
+  margin-right: 20px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 55px;
+  width: 100px;
+  margin-right: 10px;
+
+  /* border: 1px solid blue; */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:first-child:hover {
+  color: green;
+}
+
+a:nth-child(2):hover {
+  color: blue;
+}
+
+a:nth-child(3):hover {
+  color: red;
+}
+
+/* a:nth-child(4):hover {
+  color: yellow;
+} */
+
+.ig-icon,
+.fb-icon {
+  width: 25px;
+  width: 25px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.description-1 {
+  height: 400px;
+  width: 500px;
+  margin-top: 120px;
+  margin-left: 50px;
+
+  /* border: 1px solid orange; */
+}
+
+.description-1 :first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+.description-1 :nth-child(2) {
+  font-family: poppins;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description-1 :nth-child(3) {
+  font-size: 17px;
+  margin-bottom: 30px;
+  color: #a6a6a6;
+}
+
+button {
+  border-radius: 15px;
+  border: 1px solid white;
+  width: 200px;
+  height: 45px;
+  background-color: rgb(31, 31, 31);
+  font-size: 5px;
+  font-family: poppins;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+}
+
+.home {
+  margin-bottom: 50px;
+  height: 600px;
+  /* border: 1px solid white; */
+}
+
+.about {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 700px;
+  border: 1px solid white;
+}
+
+.about-me {
+  color: black;
+  height: 400px;
+  width: 700px;
+  /* border: 1px solid white; */
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.contact {
+  width: auto;
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+}
+
+.email,
+.phoneNumber {
+  text-align: center;
+  /* border: 1px solid white; */
+}
+
+.phoneNumber {
+  margin-top: 12px;
+}
+
+.p {
+  text-decoration: underline;
+}
