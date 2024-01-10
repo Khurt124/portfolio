@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+  margin: 0;
+  color: white;
+  font-family: poppins;
+}
+
+header {
+  font-size: 40px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 30px;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.act-1,
+.act-2,
+.act-3,
+.act-4,
+.act-5,
+.act-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+  border: 1px solid white;
+}
+
+/* .act-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+} */
+
+a {
+  color: white;
+  font-size: 40px;
+  font-family: Poppins;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: red;
+}
+
+.act-1:hover,
+.act-2:hover,
+.act-3:hover,
+.act-4:hover,
+.act-5:hover,
+.act-6:hover
+/* /* .act-7:hover*/ {
+  background-color: white;
+  color: black;
+}
