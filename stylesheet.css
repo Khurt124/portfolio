@@ -137,14 +137,12 @@ button:active {
   align-items: center;
   width: auto;
   height: 700px;
- /* border: 1px solid white; */
 }
 
 .about-me {
   color: black;
   height: 400px;
   width: 700px;
-  /* border: 1px solid white; */
 }
 
 h1 {
@@ -154,7 +152,6 @@ h1 {
 .contact {
   width: auto;
   height: 100px;
- /* border: 1px solid white; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,7 +167,6 @@ h1 {
 .email,
 .phoneNumber {
   text-align: center;
-  /* border: 1px solid white; */
 }
 
 .phoneNumber {
